@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@keyframes blink {
+    
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+span {
+
+    text-align: center;
+    margin-top: 20%;
+    font-size: 44px;
+    color: black;
+    animation: blink 1s infinite; 
+}
+*
+{
+    background-color: #000000fd;
+    color: rgb(20, 220, 57);
+}
+.container h1
+{
+    font-family: "Doto", sans-serif;
+    font-weight: 500;
+}
